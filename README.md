@@ -1,15 +1,12 @@
-# plp-da-a2-rainfall-advisory
+# Rainfall Analysis and Planting Advisory
 
-### Rainfall Advisory and Regional Analysis
-**Author:** PLP Data Analytics Cohort 7
+## Project Summary
+This project cleans monthly rainfall readings for five Kenyan counties, analyzes rainfall patterns with NumPy, and recommends two-month planting windows.
 
-#### Project Summary
-This project analyzes monthly rainfall readings across five Kenyan counties (Nairobi, Nakuru, Kisumu, Mombasa, and Machakos) to clean dirty hand-typed data, evaluate regional weather patterns using NumPy, and generate targeted agricultural planting windows and SMS advisories.
+## How to Run
+Open `rainfall_analysis.ipynb` in Jupyter Notebook or Google Colab, restart the kernel or runtime, and run every cell from top to bottom.
 
-#### How to Run
-Open `rainfall_analysis.ipynb` in Google Colab and select `Runtime` → `Restart session and run all`.
-
-#### Planting Advisory
-* Kisumu, Nairobi, Nakuru, and Mombasa should plant during the April–May long rains.
-* Machakos should focus its planting activities during the November–December short rains.
-* Drought-advisory SMS campaigns should prioritize Machakos and Coast due to extended dry-month counts.
+## Planting Advisory
+- Nairobi, Nakuru, Kisumu, and Mombasa have their strongest two-month planting window in April–May.
+- Machakos has its strongest two-month planting window in November–December and needs additional dry-season planning.
+- The recommendations should be checked against local conditions, longer-term records, and current forecasts because the analysis uses one year of station data.
